@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetary Weight Calculator</title>
+    <!-- Link to Google Fonts -->
+    <link href= "https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <form id="weight-form">
+            <h1>Planetary Weight Calculator</h1>
+            
+            <!-- Input field for user weight -->
+            <label for="user-weight">Your Weight (lbs)</label>
+            <input id="user-weight" type="text" placeholder="Enter your weight">
+            
+            <!-- Dropdown for planet selection -->
+            <label for="planets">Select a Planet</label>
+            <select id="planets">
+                <!-- Options will be populated by JavaScript -->
+            </select>
+            
+            <!-- Button for weight calculation -->
+            <button id="calculate-button" type="button">Calculate</button>
+            
+            <!-- Output area for result -->
+            <p id="output"></p>
+        </form>
+    </div>
+    
+    <!-- JavaScript file -->
+    <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
